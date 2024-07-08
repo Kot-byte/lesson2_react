@@ -1,0 +1,28 @@
+.panel {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: height 0.3s ease;
+  }
+  
+  .panel.open {
+    height: auto;
+  }
+  
+  .panel-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  .panel-content {
+    padding: 10px;
+  }
+  
+  .panel-icon {
+    font-size: 20px;
+  }
+  
